@@ -2,25 +2,34 @@
 
 <PageTitle>IT100 - Blazor Lab</PageTitle>
 
-<div id="movies">
-    <div class="movie">
-        <div class="title">
-            @Movies[0].Title
-        </div>
-        <div class="year">
-            Year: @Movies[0].Year
-        </div>
-        <div class="genre">
-            Genre: @Movies[0].Genres[0]
-        </div>
-        <div class="director">
-            Director: 
-        </div>
-        <div class="rating">
-            Rating: @Movies[0].Rating
-        </div>
-        <div class="stars">
-            Stars: @(Movies[0].Rating)/5
+@{ /*When you get to step 8, I recommend putting the dark mode class in "body" id div.*/}
+<div id="body">
+    <div id="cart">
+        <div>Items in cart: 0</div>
+        <div>Subtotal: @((0).ToString("C"))</div>
+        <button>Checkout</button>
+    </div>
+
+    <div id="movies">
+        <div class="movie">
+            <div class="title">
+                @Movies[0].Title
+            </div>
+            <div class="year">
+                Year: @Movies[0].Year
+            </div>
+            <div class="genre">
+                Genre: @Movies[0].Genres[0]
+            </div>
+            <div class="director">
+                Director:
+            </div>
+            <div class="rating">
+                Rating: @Movies[0].Rating
+            </div>
+            <div class="stars">
+                Stars: @(Movies[0].Rating)/5
+            </div>
         </div>
     </div>
 </div>

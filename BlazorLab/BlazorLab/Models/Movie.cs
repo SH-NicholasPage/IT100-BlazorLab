@@ -13,7 +13,8 @@ namespace BlazorLab.Models
         Fantasy,
         Horror,
         Romance,
-        Thriller
+        Thriller,
+        Western
     }
 
     public enum Rating

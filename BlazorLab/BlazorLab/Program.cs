@@ -65,6 +65,16 @@ namespace BlazorLab
                 new Movie()
                 {
                     Id = 5,
+                    Title = "Hudson Hawk",
+                    Year = 1991,
+                    Genres = new Genre[] { Genre.Action, Genre.Comedy },
+                    Director = "Michael Lehmann",
+                    Rating = Rating.PG13,
+                    Stars = 1.75f
+                },
+                new Movie()
+                {
+                    Id = 6,
                     Title = "The Hangover",
                     Year = 2009,
                     Genres = new Genre[] { Genre.Comedy },
@@ -74,7 +84,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 6,
+                    Id = 7,
                     Title = "The Devil Wears Prada",
                     Year = 2006,
                     Genres = new Genre[] { Genre.Comedy, Genre.Drama },
@@ -84,7 +94,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 7,
+                    Id = 8,
                     Title = "The Hangover Part II",
                     Year = 2011,
                     Genres = new Genre[] { Genre.Comedy },
@@ -94,7 +104,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 8,
+                    Id = 9,
                     Title = "The Hangover Part III",
                     Year = 2013,
                     Genres = new Genre[] { Genre.Comedy, Genre.Crime },
@@ -104,7 +114,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 9,
+                    Id = 10,
                     Title = "The Babadook",
                     Year = 2014,
                     Genres = new Genre[] { Genre.Horror },
@@ -114,7 +124,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 10,
+                    Id = 11,
                     Title = "The Conjuring",
                     Year = 2013,
                     Genres = new Genre[] { Genre.Horror },
@@ -124,7 +134,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 11,
+                    Id = 12,
                     Title = "Toy Story",
                     Year = 1995,
                     Genres = new Genre[] { Genre.Adventure, Genre.Animation, Genre.Comedy },
@@ -134,7 +144,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 12,
+                    Id = 13,
                     Title = "Toy Story 2",
                     Year = 1999,
                     Genres = new Genre[] { Genre.Adventure, Genre.Animation, Genre.Comedy },
@@ -144,7 +154,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 13,
+                    Id = 14,
                     Title = "Coraline",
                     Year = 2009,
                     Genres = new Genre[] { Genre.Horror, Genre.Animation, Genre.Fantasy },
@@ -154,7 +164,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 14,
+                    Id = 15,
                     Title = "The Nightmare Before Christmas",
                     Year = 1993,
                     Genres = new Genre[] { Genre.Horror, Genre.Animation, Genre.Fantasy },
@@ -164,7 +174,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 15,
+                    Id = 16,
                     Title = "The Lion King",
                     Year = 1994,
                     Genres = new Genre[] { Genre.Animation, Genre.Drama },
@@ -174,7 +184,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 16,
+                    Id = 17,
                     Title = "The Lion King 2: Simba's Pride",
                     Year = 1998,
                     Genres = new Genre[] { Genre.Animation, Genre.Drama },
@@ -184,7 +194,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 17,
+                    Id = 18,
                     Title = "The Incredibles",
                     Year = 2004,
                     Genres = new Genre[] { Genre.Animation, Genre.Action, Genre.Adventure },
@@ -194,7 +204,7 @@ namespace BlazorLab
                 },
                 new Movie()
                 {
-                    Id = 18,
+                    Id = 19,
                     Title = "The Incredibles 2",
                     Year = 2018,
                     Genres = new Genre[] { Genre.Animation, Genre.Action, Genre.Adventure },
@@ -202,6 +212,16 @@ namespace BlazorLab
                     Rating = Rating.PG,
                     Stars = 4.7f
                 },
+                new Movie()
+                {
+                    Id = 20,
+                    Title = "The Rediculous 6",
+                    Year = 2015,
+                    Genres = new Genre[] { Genre.Comedy, Genre.Western },
+                    Director = "Frank Coraci",
+                    Rating = Rating.PG13,
+                    Stars = 0.7f
+                }
             };
         }
     }
